@@ -1,0 +1,11 @@
+/build/chroot/
+/build/cache/
+/build/binary/
+/build/.build/
+/build/.stage/
+/build/*.iso
+/build/*.img
+/build/*.log
+/build/*.contents
+/build/*.packages
+/build/*.zsync

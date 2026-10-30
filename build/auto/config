@@ -1,0 +1,3 @@
+#!/bin/sh
+set -eu
+lb config noauto --mode debian --distribution stable --architectures amd64 --binary-images iso-hybrid --bootappend-live "boot=live components" "$@"
